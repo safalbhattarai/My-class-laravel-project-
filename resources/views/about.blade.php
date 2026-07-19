@@ -9,16 +9,19 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <style>
-        h1 {
-            color: red;
+        .container {
+            width: 90%;
+            margin: 0 auto;
         }
     </style>
 </head>
-<body>
-     <nav>
-        <a href="/">Home</a>
-        <a href="/about">About </a>
-     </nav>
-    <h1 class="text-4xl font-semibold"> About Page </h1>
+<body class="bg-purple-50">
+
+<x-header/>
+
+<main></main>
+
+<footer></footer>
+
 </body>
 </html>
