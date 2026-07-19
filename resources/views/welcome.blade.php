@@ -15,6 +15,11 @@
     </style>
 </head>
 <body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About </a>
+    </nav>
+
   <h1 class="text-4xl font-semibold"> Home Page </h1>
 </body>
 </html>
