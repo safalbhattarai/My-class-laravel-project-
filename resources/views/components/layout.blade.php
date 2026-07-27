@@ -14,12 +14,14 @@
             margin: 0 auto;
         }
     </style>
+    @stack('css')
 </head>
 <body class="bg-purple-50">
 
 <x-header/>
 
 <main>
+    {{$slot }}
 
 </main>
 

@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
-    <style>
-        .container {
-            width: 90%;
-            margin: 0 auto;
-        }
-    </style>
-</head>
-<body class="bg-purple-50">
-
-<x-header/>
-
-<main></main>
-
-<footer></footer>
-
-</body>
-</html>
+<x-layout>
+<h1 class="text-4xl text-center mt-20">This is about page</h1>
+</x-layout>
