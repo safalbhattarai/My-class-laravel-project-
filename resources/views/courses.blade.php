@@ -4,7 +4,7 @@
             <h1 class="text-4xl text-center mb-8">Create courses</h1>
 
             <form action="/save-course" method="post">
-                @csrf
+              @csrf
 
 {{--
                 <label for="name">Enter your name</label>
