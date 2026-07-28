@@ -13,7 +13,12 @@
             width: 90%;
             margin: 0 auto;
         }
+        button{
+            cursor: pointer;
+        }
+
     </style>
+
     @stack('css')
 </head>
 <body class="bg-purple-50">
@@ -26,6 +31,7 @@
 </main>
 
 <footer></footer>
+@include('sudam-sweet-alert::alert')
 
 </body>
 </html>
