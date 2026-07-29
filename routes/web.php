@@ -14,12 +14,22 @@ Route::get("/about", function () {
     return view("about");
 });
 
-Route::get("/courses", function () {
-    return view("courses");
+Route::get("/demo{id}", function ($idddd) {
+    return "demo".$idddd;
 });
 
-Route::get("/home", function () {
-    return redirect("/");
+//courses Routes
+
+Route::get("/courses", function () {
+      $courses = Course::all();
+    //return $courses;
+
+    return view("course.index", compact('courses'));
+});
+
+
+Route::get('/courses/create', function () {
+    return view('course.create');
 });
 
 Route::post("/save-course", function (Request $request) {
@@ -34,3 +44,6 @@ Route::post("/save-course", function (Request $request) {
 
 
 });
+
+
+
