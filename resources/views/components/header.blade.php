@@ -12,7 +12,7 @@
         </div>
 
         <div>
-            <a href="" class="bg-[purple] twxt-white px-6 py-2 rounded-full">
+            <a href="/admission/index" class="bg-[purple] twxt-white px-6 py-2 rounded-full">
                 Admission
             </a>
         </div>
